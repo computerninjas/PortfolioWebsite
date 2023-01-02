@@ -1,0 +1,40 @@
+ @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;  
+}
+.header
+{
+    font-family: 'Passions Conflict', cursive;
+    font-weight: 200;
+    font-size: 3rem;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:black;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,e9d4b3+44,c19e67+50 */
+color: #f3e2c7; /* Old browsers */
+color: -moz-linear-gradient(top,  #f3e2c7 0%, #e9d4b3 44%, #c19e67 50%); /* FF3.6-15 */
+color: -webkit-linear-gradient(top,  #f3e2c7 0%,#e9d4b3 44%,#c19e67 50%); /* Chrome10-25,Safari5.1-6 */
+color: linear-gradient(to bottom,  #f3e2c7 0%,#e9d4b3 44%,#c19e67 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#c19e67',GradientType=0 ); /* IE6-9 */
+
+
+    
+}
+.list
+{
+  list-style-type: none;
+  display: flex;
+}
+.ulist
+{
+  margin:12px;
+}
+.ulist:hover {
+  border-style:double;
+ 
+ 
+}
