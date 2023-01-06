@@ -1,18 +1,24 @@
  @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
-* {
+ @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@300&display=swap');
+ *
+ {
   box-sizing: border-box;
   padding: 0;
   margin: 0;  
+
 }
 .header
 {
+  background-color: black;
     font-family: 'Passions Conflict', cursive;
     font-weight: 200;
     font-size: 3rem;
     display:flex;
     justify-content: space-between;
     align-items:center;
-    background-color:black;
+   
+    
 
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,e9d4b3+44,c19e67+50 */
 color: #f3e2c7; /* Old browsers */
@@ -24,8 +30,73 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
 
     
 }
+.main
+{
+  display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-left: 6rem;
+  
+}
+.left-box
+{
+
+max-width:45rem;
+
+}
+.right-box
+{ 
+  max-width: 45rem;
+margin-left: 7rem;
+margin-right:7rem;
+}
+.img2
+{
+  width: 22rem;
+  height:22rem;
+  border-radius: 50%;
+  float:top;
+ border: 6px solid #c19e67;
+  
+
+}
+.img
+{
+  padding-right: 2rem;
+}
+.name
+{
+  font-family: 'Courgette', cursive;
+  font-size: 2.8rem;
+  
+}
+
+.text1
+{
+  font-family: 'Lateef', serif;
+  font-size: 1.8rem;
+  line-height:1.8rem;
+  align-items:center;
+  transition-property:text-align;
+  border-top: 1px 1px 1px 1px;
+  border-style: dotted;
+  border-color: #c19e67;
+  
+;
+
+}
+.name:hover{
+transform:scale(1.1);
+}
+.img2:hover
+{
+  transform:scale(1.1);
+}
 .list
 {
+  background-color: black;
   list-style-type: none;
   display: flex;
 }
@@ -34,7 +105,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
   margin:12px;
 }
 .ulist:hover {
-  border-style:double;
- 
+  text-decoration: underline;
+  text-decoration-color:wheat;
+  text-decoration-thickness: 1.2px;
  
 }
