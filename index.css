@@ -1,12 +1,15 @@
  @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
  *
  {
   box-sizing: border-box;
   padding: 0;
   margin: 0;  
 
+  
 }
 .header
 {
@@ -26,8 +29,6 @@ color: -moz-linear-gradient(top,  #f3e2c7 0%, #e9d4b3 44%, #c19e67 50%); /* FF3.
 color: -webkit-linear-gradient(top,  #f3e2c7 0%,#e9d4b3 44%,#c19e67 50%); /* Chrome10-25,Safari5.1-6 */
 color: linear-gradient(to bottom,  #f3e2c7 0%,#e9d4b3 44%,#c19e67 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#c19e67',GradientType=0 ); /* IE6-9 */
-
-
     
 }
 .main
@@ -36,57 +37,76 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
     justify-content: space-between;
     align-items:center;
     flex-direction: row;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-left: 6rem;
   
 }
 .left-box
 {
 
-max-width:45rem;
+max-width:50rem;
 
 }
 .right-box
 { 
-  max-width: 45rem;
+  max-width:65rem;
 margin-left: 7rem;
 margin-right:7rem;
 }
 .img2
 {
-  width: 22rem;
-  height:22rem;
+  width: 19rem;
+  height:19rem;
+  float:none;
   border-radius: 50%;
-  float:top;
- border: 6px solid #c19e67;
+  border: 6px solid#1abab5;
   
 
 }
 .img
 {
   padding-right: 2rem;
+  
 }
 .name
 {
   font-family: 'Courgette', cursive;
   font-size: 2.8rem;
-  
+  background-image: -webkit-linear-gradient(90deg, #1b6197 50%,#1abab5 34%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+.name1
+{
+  font-family: 'Courgette',cursive;
+  font-size: 2.4rem;
+  background-image: -webkit-linear-gradient(90deg, #1b6197 50%,#1abab5 34%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .text1
 {
-  font-family: 'Lateef', serif;
-  font-size: 1.8rem;
+ font-family:serif;
+padding-top: 1rem;
+ font-style: italic;
+  font-size: 1.6rem;
   line-height:1.8rem;
   align-items:center;
-  transition-property:text-align;
-  border-top: 1px 1px 1px 1px;
-  border-style: dotted;
-  border-color: #c19e67;
-  
-;
+  color:#1b6197;
+
 
 }
+.text3
+{
+ font-weight: bold;
+ color:#0e4f80;
+}
+
 .name:hover{
 transform:scale(1.1);
 }
@@ -105,8 +125,5 @@ transform:scale(1.1);
   margin:12px;
 }
 .ulist:hover {
-  text-decoration: underline;
-  text-decoration-color:wheat;
-  text-decoration-thickness: 1.2px;
- 
+  color: rgb(127, 254, 212);
 }
